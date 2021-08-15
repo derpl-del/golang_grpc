@@ -14,7 +14,7 @@ on u1.parent = u2.id ;
 # 2.API
 
 ```
-
+Please check the API Documentation on wiki repository for more information
 ```
 
 # 3.Refactor the code
