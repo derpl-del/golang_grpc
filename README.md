@@ -2,10 +2,14 @@
 
 # 1.Simple Database querying
 
+![Query1](https://user-images.githubusercontent.com/60681701/129472430-a185f096-f342-43e0-96d6-73e1c66ddabd.png)
+
 ```sql
 select u1.id, u1.username , u2.username from "User" u1 LEFT JOIN "User" u2 
 on u1.parent = u2.id ;
 ```
+
+![Query2](https://user-images.githubusercontent.com/60681701/129472435-45964e95-c459-466f-845f-0ba65e53da31.png)
 
 # 2.API
 
@@ -29,6 +33,9 @@ func findFirstStringInBracket(str string) string {
     return str[pos1 : pos1+pos2]
 }
 ```
+
+![Refactor](https://user-images.githubusercontent.com/60681701/129472477-b78377cf-e5ff-4f7c-8c6b-3c93243c83fc.png)
+
 
 # 4.Logic Test
 
@@ -80,3 +87,6 @@ func StringToRuneSlice(input string) string {
     return string(r)
 }
 ```
+
+![LogicTest](https://user-images.githubusercontent.com/60681701/129472470-2415ef1e-c40f-4029-a479-e17626c90513.png)
+
